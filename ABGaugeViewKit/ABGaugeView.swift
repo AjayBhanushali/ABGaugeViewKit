@@ -27,7 +27,7 @@ public class ABGaugeView: UIView {
         }
     }
     
-    @IBInspectable var circleColor: UIColor = UIColor.black
+    @IBInspectable public var circleColor: UIColor = UIColor.black
     
     // MARK:- Properties
     var firstAngle: CGFloat!
