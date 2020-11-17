@@ -9,6 +9,7 @@
 
  ABGaugeViewKit is a framework with a lot of access to change it's UI which will help you to add Gauge View in your iOS App.
 
+Refer [Medium] for integration tutorial
 <a href="https://imgflip.com/gif/25lu0h"><img src="https://i.imgflip.com/25lu0h.gif" title="made at imgflip.com"/></a>
 
 ## Features
@@ -66,4 +67,4 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
 [codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
-
+[Medium]: https://medium.com/ajay-bhanushali/create-gaugeview-speedometer-in-swift-571ff97d1a68
