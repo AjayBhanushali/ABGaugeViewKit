@@ -107,7 +107,7 @@ public class ABGaugeView: UIView {
         animation.fromValue = 1
         animation.toValue = 0.2
         animation.duration = 0.1
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.default)
         animation.autoreverses = true
         animation.repeatCount = 3
         self.layer.add(animation, forKey: "opacity")
@@ -224,7 +224,7 @@ public class ABGaugeView: UIView {
         spinAnimation1.fromValue = fromValue//radian(for: fromValue)
         spinAnimation1.toValue = toValue//radian(for: toValue)
         spinAnimation1.duration = duration
-        spinAnimation1.fillMode = kCAFillModeForwards
+        spinAnimation1.fillMode = CAMediaTimingFillMode.forwards
         spinAnimation1.isRemovedOnCompletion = false
         
         CATransaction.setCompletionBlock {
