@@ -156,10 +156,13 @@ public class ABGaugeView: UIView {
                                 endAngle: endAngle,
                                 clockwise: true)
         // 3
-        path.lineWidth = lineWidth
-        path.lineCapStyle = arcCap
-        strokeColor.setStroke()
-        path.stroke()
+        let arcLayer = CAShapeLayer()
+        arcLayer.path = path.cgPath
+        arcLayer.strokeColor = strokeColor.cgColor
+        arcLayer.fillColor = UIColor.clear.cgColor
+
+        arcLayer.lineWidth = lineWidth
+        layer.addSublayer(arcLayer)
     }
     
     func drawNeedleCircle() {
