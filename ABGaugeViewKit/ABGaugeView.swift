@@ -36,7 +36,7 @@ public class ABGaugeView: UIView {
         }
     }
     
-    @IBInspectable public var blinkAnimate: Bool = true
+    @IBInspectable public var blinkAnimate: Bool = false
     
     @IBInspectable public var circleColor: UIColor = UIColor.black
     @IBInspectable public var shadowColor: UIColor = UIColor.lightGray.withAlphaComponent(0.3)
@@ -73,7 +73,7 @@ public class ABGaugeView: UIView {
     }
     
     func drawSmartArc() {
-        var angles = getAllAngles()
+        let angles = getAllAngles()
         let arcColors = colorCodes.components(separatedBy: ",")
         let center = CGPoint(x: bounds.width / 2, y: bounds.height / 2)
         
