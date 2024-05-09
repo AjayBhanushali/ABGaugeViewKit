@@ -12,13 +12,9 @@ let package = Package(
             targets: ["ABGaugeViewKit"]
         )
     ],
-    dependencies: [
-        // Define your dependencies here, if any
-    ],
     targets: [
         .target(
             name: "ABGaugeViewKit",
-            dependencies: [],
             path: "ABGaugeViewKit"
         )
     ]
