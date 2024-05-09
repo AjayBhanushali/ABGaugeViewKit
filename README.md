@@ -2,7 +2,6 @@
 > A light weight GaugeView to make your app awesome.
 
 [![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
@@ -19,11 +18,18 @@ Refer [Medium] for integration tutorial
 
 ## Requirements
 
-- iOS 11.0+
+- iOS 12.0+
 - Xcode 9.0
-- Swift 3.0+
+- Swift 5.0+
 
 ## Installation
+#### Swift Package Manager
+1. Open your Xcode project.
+2. Go to File -> Swift Packages -> Add Package Dependency...
+3. Search for ABGaugeViewKit or Enter the repository URL: https://github.com/AjayBhanushali/ABGaugeViewKit.git
+4. Choose the version rule according to your preference.
+5. Choose the target where you want to integrate ABGaugeViewKit.
+6. Click Finish.
 
 #### CocoaPods
 You can use [CocoaPods](https://cocoapods.org/pods/ABGaugeViewKit) to install `ABGaugeViewKit` by adding it to your `Podfile`:
@@ -33,6 +39,7 @@ platform :ios, '11.0'
 use_frameworks!
 pod 'ABGaugeViewKit'
 ```
+
 ## Usage example
 
 ```swift
@@ -59,7 +66,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [GitHub](https://github.com/AjayBhanushali)
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
